@@ -62,8 +62,8 @@ RESNET_PATH = "best_resnet50.pth"
 GROWTH_PATH = "growth_model.pkl"
 
 # 🔴 PASTE YOUR DIRECT GOOGLE DRIVE LINKS BELOW
-RESNET_URL = "https://drive.google.com/file/d/169ZA_HNd8xWWAWI6Q6juv_bt2BVCEQc4/view?usp=sharing"
-GROWTH_URL = "https://drive.google.com/file/d/1yoYk4CAV5B1Vs8b60wnAayONIpUETVFR/view?usp=sharing"
+RESNET_URL = "https://drive.google.com/uc?export=download&id=169ZA_HNd8xWWAWI6Q6juv_bt2BVCEQc4"
+GROWTH_URL = "https://drive.google.com/uc?export=download&id=1yoYk4CAV5B1Vs8b60wnAayONIpUETVFR"
 
 def download_file(url, path):
     print(f"Downloading {path}...")
@@ -485,3 +485,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
